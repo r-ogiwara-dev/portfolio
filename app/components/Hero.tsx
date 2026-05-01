@@ -13,9 +13,16 @@ export default function Hero() {
         <h1 className="animate-fade-in-up-delay-1 text-5xl sm:text-7xl font-bold leading-tight mb-6">
           <span style={{ color: "#f1f5f9" }}>こんにちは、</span>
           <br />
-          <span className="gradient-text">test太郎</span>
+          <span className="gradient-text">r.ogiwara</span>
           <span style={{ color: "#f1f5f9" }}>です。</span>
         </h1>
+
+        <p className="animate-fade-in-up-delay-2 text-sm mb-2 max-w-xl mx-auto px-4 py-3 rounded-xl"
+          style={{ color: "#64748b", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.07)" }}>
+          こちらのWebサイトは Claude Code の練習として作成したものです。（Claude Code + Vercel デプロイ）
+          <br />
+          メインはバックエンドエンジニアのため、デザインを含め Claude にお任せしています。
+        </p>
 
         <p className="animate-fade-in-up-delay-2 text-xl mb-4" style={{ color: "#94a3b8" }}>
           フロントエンドエンジニア志望
