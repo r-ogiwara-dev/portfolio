@@ -3,7 +3,6 @@ import HeroIllustration from "./HeroIllustration";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
-      {/* 背景の装飾円 */}
       <div className="absolute top-20 right-10 w-64 h-64 rounded-full opacity-40 float"
         style={{ background: "radial-gradient(circle, #bdd4e7, transparent)" }} />
       <div className="absolute bottom-20 left-10 w-48 h-48 rounded-full opacity-30 float"
@@ -12,12 +11,12 @@ export default function Hero() {
       <div className="relative z-10 w-full max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* テキスト左 */}
         <div className="text-left">
-          <p className="anim-1 section-label mb-5">Backend Engineer</p>
+          <p className="anim-1 section-label mb-4">Backend Engineer</p>
 
           <h1 className="anim-2 font-black leading-tight mb-5"
-            style={{ fontSize: "clamp(2.4rem, 6vw, 4.2rem)", color: "#1a2e4a" }}>
-            こんにちは、<br />
-            <span className="accent-text">r.ogiwara</span> です。
+            style={{ fontSize: "clamp(2.2rem, 5.5vw, 3.8rem)", color: "#1a2e4a" }}>
+            コードで、<br />
+            体験を<span className="accent-text">デザイン</span>する。
           </h1>
 
           <div className="anim-3 mb-6 px-5 py-3 rounded-2xl text-sm leading-relaxed"
@@ -25,10 +24,6 @@ export default function Hero() {
             こちらのWebサイトは Claude Code の練習として作成したものです。（Claude Code + Vercel デプロイ）<br />
             メインはバックエンドエンジニアのため、デザインを含め Claude にお任せしています。
           </div>
-
-          <p className="anim-3 text-lg mb-10" style={{ color: "#4a6080" }}>
-            「コードで、ユーザーの体験を変える。」
-          </p>
 
           <div className="anim-4 flex flex-wrap gap-4">
             <a href="#works" className="btn-primary">作品を見る</a>
