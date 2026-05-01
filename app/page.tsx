@@ -16,8 +16,9 @@ export default function Home() {
         <Works />
         <Contact />
       </main>
-      <footer className="py-8 text-center text-sm" style={{ color: "#475569", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-        © 2025 test太郎. All rights reserved.
+      <footer className="py-8 text-center text-sm"
+        style={{ color: "#7a94b0", borderTop: "1px solid rgba(255,255,255,0.7)", background: "var(--bg-section)" }}>
+        © 2025 r.ogiwara. All rights reserved.
       </footer>
     </>
   );
