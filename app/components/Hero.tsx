@@ -1,4 +1,4 @@
-import HeroIllustration from "./HeroIllustration";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -31,9 +31,18 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* イラスト右 */}
-        <div className="anim-3 flex justify-center float">
-          <HeroIllustration />
+        {/* 写真右 */}
+        <div className="anim-3 flex justify-center">
+          <div className="relative float" style={{ width: 340, height: 400 }}>
+            <Image
+              src="/hero.jpg"
+              alt="r.ogiwara と柴犬"
+              fill
+              priority
+              className="object-cover"
+              style={{ borderRadius: "32px", boxShadow: "0 16px 48px rgba(26,46,74,0.15)" }}
+            />
+          </div>
         </div>
       </div>
 
