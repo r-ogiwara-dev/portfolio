@@ -1,4 +1,5 @@
 import ScrollReveal from "./ScrollReveal";
+import CoffeeIcon from "./CoffeeIcon";
 
 export default function Contact() {
   return (
@@ -6,7 +7,10 @@ export default function Contact() {
       <div className="max-w-xl mx-auto text-center">
         <ScrollReveal>
           <p className="section-label mb-2">Contact</p>
-          <h2 className="section-title mb-4">お問い合わせ</h2>
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <h2 className="section-title">お問い合わせ</h2>
+            <CoffeeIcon size={40} />
+          </div>
           <div className="divider mb-10" />
         </ScrollReveal>
 
