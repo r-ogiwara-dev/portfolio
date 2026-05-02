@@ -8,8 +8,8 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "test太郎 | Portfolio",
-  description: "フロントエンドエンジニア志望 test太郎のポートフォリオサイト",
+  title: "r.ogiwara | Portfolio",
+  description: "バックエンドエンジニア r.ogiwara のポートフォリオサイト",
 };
 
 export default function RootLayout({
