@@ -25,14 +25,15 @@ export default function About() {
           </ScrollReveal>
 
           <ScrollReveal delay={200}>
-            <h3 className="text-2xl font-bold mb-4" style={{ color: "#1a2e4a" }}>r.ogiwara</h3>
             <p className="mb-4 leading-relaxed" style={{ color: "#4a6080" }}>
-              Webバックエンド開発をメインに、フロントエンドにも挑戦中のエンジニアです。
-              ユーザーの体験を第一に考え、実用的なプロダクトを作ることを心がけています。
+              柴犬飼ってます、r.ogiwara です。
+            </p>
+            <p className="mb-4 leading-relaxed" style={{ color: "#4a6080" }}>
+              モバイルオーダーの開発にフルスタックで携わってきました。
+              チームでの開発を大切にし、コードの品質と保守性を常に意識しながら開発を進めています。
             </p>
             <p className="leading-relaxed" style={{ color: "#4a6080" }}>
-              チームでの開発を大切にし、コードの品質と保守性を
-              常に意識しながら開発を進めることを心がけています。
+              これまでの経験を活かしながら、新たな領域の開発にも積極的に挑戦していきたいと考えています。
             </p>
           </ScrollReveal>
         </div>
