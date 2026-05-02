@@ -21,8 +21,8 @@ export default function Hero() {
 
           <div className="anim-3 mb-6 px-5 py-3 rounded-2xl text-sm leading-relaxed"
             style={{ background: "rgba(255,255,255,0.7)", color: "#4a6080", border: "1px solid rgba(255,255,255,0.9)" }}>
-            こちらのWebサイトは Claude Code の練習として作成したものです。（Claude Code + Vercel デプロイ）<br />
-            メインはバックエンドエンジニアのため、デザインを含め Claude にお任せしています。
+            Claude Code の活用練習として制作したポートフォリオです。<br />
+            コードは一切書かず、すべて指示・対話のみで完成させました。
           </div>
 
           <div className="anim-4 flex flex-wrap gap-4">
