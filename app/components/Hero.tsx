@@ -16,7 +16,8 @@ export default function Hero() {
           <h1 className="anim-2 font-black leading-tight mb-5"
             style={{ fontSize: "clamp(2.2rem, 5.5vw, 3.8rem)", color: "#1a2e4a" }}>
             AIを味方に、<br />
-            技術と自分を<span className="accent-text">アップデート</span>
+            <span className="accent-text">アップデート</span><br />
+            し続ける
           </h1>
 
           <div className="anim-3 mb-6 px-5 py-3 rounded-2xl text-sm leading-relaxed"
