@@ -9,7 +9,7 @@ const skills = [
   { name: "MySQL",          years: "6年",     icon: "🗄️" },
 ];
 
-const tags = ["Tailwind CSS", "Node.js", "REST API", "Figma", "Linux", "Nginx", "VSCode", "Docker", "Git / GitHub"];
+const tags = ["Linux", "XAMPP", "VSCode", "Docker", "Git / GitHub", "Redmine"];
 
 export default function Skills() {
   return (
