@@ -10,7 +10,7 @@ export default function Nav() {
       <div className="flex items-center gap-6">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#works">Works</a>
+        <a href="#works">Projects</a>
         <a href="#contact" className="btn-primary !py-2 !px-5 !text-sm">CONTACT</a>
       </div>
     </nav>
