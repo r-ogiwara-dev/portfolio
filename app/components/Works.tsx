@@ -66,17 +66,6 @@ export default function Works() {
                   ))}
                 </div>
 
-                <a
-                  href="https://www.youtube.com/watch?v=J5VGKdShJsk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary inline-flex items-center gap-2 !py-2.5 !px-5 !text-sm"
-                >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                  動画を見る
-                </a>
               </div>
             </div>
           </div>

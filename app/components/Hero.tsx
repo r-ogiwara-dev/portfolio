@@ -11,12 +11,12 @@ export default function Hero() {
       <div className="relative z-10 w-full max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* テキスト左 */}
         <div className="text-left">
-          <p className="anim-1 section-label mb-4">Backend Engineer</p>
+          <p className="anim-1 section-label mb-4">Software Engineer</p>
 
           <h1 className="anim-2 font-black leading-tight mb-5"
             style={{ fontSize: "clamp(2.2rem, 5.5vw, 3.8rem)", color: "#1a2e4a" }}>
-            コードで、<br />
-            体験を<span className="accent-text">デザイン</span>する。
+            AIを味方に、<br />
+            技術と自分を<span className="accent-text">アップデート</span>
           </h1>
 
           <div className="anim-3 mb-6 px-5 py-3 rounded-2xl text-sm leading-relaxed"
@@ -26,7 +26,7 @@ export default function Hero() {
           </div>
 
           <div className="anim-4 flex flex-wrap gap-4">
-            <a href="#works" className="btn-primary">作品を見る</a>
+            <a href="#about" className="btn-primary">私について</a>
             <a href="#contact" className="btn-secondary">お問い合わせ</a>
           </div>
         </div>
