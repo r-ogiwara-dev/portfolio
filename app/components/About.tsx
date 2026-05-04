@@ -1,9 +1,9 @@
 import ScrollReveal from "./ScrollReveal";
 
 const strengths = [
-  { icon: "⚡", title: "スピード重視", desc: "素早い開発サイクルで価値を届けることを意識しています" },
+  { icon: "⚙️", title: "コード品質", desc: "読みやすくバグの少ないコードにこだわり、長期的に保守できるプロダクトを目指します" },
   { icon: "🎨", title: "UI/UXへのこだわり", desc: "使いやすさと美しさを両立したインターフェースを追求します" },
-  { icon: "🔧", title: "問題解決力", desc: "技術的な課題に粘り強く向き合い、解決策を導き出します" },
+  { icon: "💻", title: "問題解決力", desc: "技術的な課題に粘り強く向き合い、解決策を導き出します" },
 ];
 
 export default function About() {
@@ -26,7 +26,7 @@ export default function About() {
 
           <ScrollReveal delay={200}>
             <p className="mb-4 leading-relaxed" style={{ color: "#4a6080" }}>
-              柴犬飼ってます、r.ogiwara です。
+              r.ogiwara と申します。1991年生まれ、エンジニアとして実務経験6年になります。
             </p>
             <p className="mb-4 leading-relaxed" style={{ color: "#4a6080" }}>
               モバイルオーダーの開発にフルスタックで携わってきました。
