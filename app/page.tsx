@@ -18,7 +18,7 @@ export default function Home() {
       </main>
       <footer className="py-8 text-center text-sm"
         style={{ color: "#7a94b0", borderTop: "1px solid rgba(255,255,255,0.7)", background: "var(--bg-section)" }}>
-        © 2025 r.ogiwara. All rights reserved.
+        © 2026 r.ogiwara. All rights reserved.
       </footer>
     </>
   );
